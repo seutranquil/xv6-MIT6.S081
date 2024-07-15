@@ -17,3 +17,11 @@ main(int argc, char *argv[])
   }
   exit(0);
 }
+
+/*write():
+size_t write (int fd, void* buf, size_t cnt); 
+Writes cnt bytes from buf to the file or socket associated with fd
+fd: file descriptor
+buf: buffer to write data from.
+cnt: length of the buffer
+*/
